@@ -1,0 +1,196 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(slide1.1.jpg); */
+}
+header{
+    position: sticky;
+    top: 0;
+}
+#main {
+    /* border: 2px solid red; */
+    height: 120px;
+    /* width: 100%; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#left {
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin-left: 45px;
+}
+#left > button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 21px;
+    left:  10px;
+
+}
+#left > #zara{
+    width: 50%;
+    /* animation-name: zaraanimate;
+    animation-duration: 2s; */
+}
+/* @keyframes zaraanimate{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 76%;
+    } */
+/* } */
+#left > button > svg{
+    color: white;
+}
+
+#right {
+    /* border: 2px solid green; */
+    /* margin-right: 10px; */
+    display: flex;
+
+}
+
+
+/* @keyframes inputanimate{
+    from{
+        margin-top: 300px;
+    }
+    to {
+        margin-top: 19px;
+    }
+} */
+#rightchild > a{
+    text-decoration-line: none;
+    margin: 10px;
+    font-size: 12px;
+    color:black;
+    
+}
+#foot {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 40%;
+    font-size: 11px;
+    margin-left: 58px;
+    justify-content: space-between;
+    margin-top: 450px;
+    cursor: pointer;
+}
+#country{
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 94%;
+    font-size: 11px;
+}
+#address{
+    font-size: 9px;
+    margin-top: 119px;
+    /* border: 1px solid red; */
+    width: 26%;
+    margin-left: 38px;
+}
+#female-products{
+    border: 2px solide red;
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+}
+.female-products-buy{
+    border: 1px solid black;
+}
+.female-products-buy > p{
+    font-size: 11px;
+    margin: 8px;
+}
+.female-products-buy > button{
+    background: wheat;
+    border-radius: 5px;
+    position: relative;
+    left: 93px;
+
+}
+.female-products-buy > svg{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    right: -186px;
+}
+.female-products-buy > img{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+#male-products{
+    /* border: 2px solide red; */
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.male-products-buy > button{
+    background: wheat;
+    border-radius: 5px;
+    position: relative;
+    left: 93px;
+
+}
+.male-products-buy > p{
+    font-size: 11px;
+    margin: 8px;
+}
+.male-products-buy > svg{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    right: -186px;
+}
+.male-products-buy{
+    border: 1px solid black;
+}
+.male-products-buy > img{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#kids-products{
+    /* border: 2px solide red; */
+    width: 100%;
+    height:auto;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.kids-products-buy > svg{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    right: -186px;
+}
+.kids-products-buy > button{
+    background: wheat;
+    border-radius: 5px;
+    position: relative;
+    left: 93px;
+
+}
+.kids-products-buy{
+    border: 1px solid black;
+}
+.kids-products-buy > p{
+    font-size: 11px;
+    margin: 8px;
+}
+.kids-products-buy > img{
+    width: 100%;
+    border-bottom: 1px solid black;
+}

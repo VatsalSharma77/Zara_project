@@ -1,0 +1,151 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(slide1.1.jpg); */
+}
+header{
+    position: sticky;
+    top: 0;
+}
+#main {
+    /* border: 2px solid red; */
+    height: 120px;
+    /* width: 100%; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#left {
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin-left: 45px;
+}
+#left > button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 21px;
+    left:  10px;
+
+}
+#left > #zara{
+    width: 50%;
+    /* animation-name: zaraanimate;
+    animation-duration: 2s; */
+}
+/* @keyframes zaraanimate{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 76%;
+    } */
+/* } */
+#left > button > svg{
+    color: white;
+}
+
+#right {
+    /* border: 2px solid green; */
+    /* margin-right: 10px; */
+    display: flex;
+
+}
+#right > a > input {
+    margin-right: 39px;
+    margin-top: 19px;
+    cursor: pointer;
+    width: 316px;
+    height: 6px;
+    text-align: right;
+    padding: 13px;
+    font-size: 12px;
+    padding-right: 31px;
+    /* animation-name: inputanimate;
+    animation-duration: 2s; */
+    
+}
+
+/* @keyframes inputanimate{
+    from{
+        margin-top: 300px;
+    }
+    to {
+        margin-top: 19px;
+    }
+} */
+#rightchild > a{
+    text-decoration-line: none;
+    margin: 10px;
+    font-size: 12px;
+    color:black;
+    
+}
+#logIN {
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 283px;
+    margin-left: 58px;
+    display: flex;
+}
+#left-login {
+    /* border: 1px solid blue; */
+    width: 450px;
+}
+#left-login > form > input{
+    margin-top: 15px;
+    height: 31px;
+    width: 367px;
+    border: none;
+    border-bottom: ridge;
+    
+}
+#left-login > form > #sub{
+    margin-top: 43px;
+    background: none;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#forgotten {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+#right-login > a > button{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 31px;
+    width: 367px;
+}
+#foot {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 40%;
+    font-size: 11px;
+    margin-left: 58px;
+    justify-content: space-between;
+    margin-top: 450px;
+    cursor: pointer;
+}
+#country{
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 94%;
+    font-size: 11px;
+}
+#address{
+    font-size: 9px;
+    margin-top: 119px;
+    /* border: 1px solid red; */
+    width: 26%;
+    margin-left: 38px;
+}

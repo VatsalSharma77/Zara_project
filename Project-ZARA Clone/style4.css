@@ -1,0 +1,161 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(slide1.1.jpg); */
+}
+header{
+    position: sticky;
+    top: 0;
+}
+#main {
+    /* border: 2px solid red; */
+    height: 120px;
+    /* width: 100%; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#left {
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin-left: 45px;
+}
+#left > button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 21px;
+    left:  10px;
+
+}
+#left > #zara{
+    width: 50%;
+    /* animation-name: zaraanimate;
+    animation-duration: 2s; */
+}
+/* @keyframes zaraanimate{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 76%;
+    } */
+/* } */
+#left > button > svg{
+    color: white;
+}
+
+#right {
+    /* border: 2px solid green; */
+    /* margin-right: 10px; */
+    display: flex;
+
+}
+#right > a > input {
+    margin-right: 39px;
+    margin-top: 19px;
+    cursor: pointer;
+    width: 316px;
+    height: 6px;
+    text-align: right;
+    padding: 13px;
+    font-size: 12px;
+    padding-right: 31px;
+    /* animation-name: inputanimate;
+    animation-duration: 2s; */
+    
+}
+
+/* @keyframes inputanimate{
+    from{
+        margin-top: 300px;
+    }
+    to {
+        margin-top: 19px;
+    }
+} */
+#rightchild > a{
+    text-decoration-line: none;
+    margin: 10px;
+    font-size: 12px;
+    color:black;
+    
+}
+
+#help-input {
+    position: relative;
+    top: 123px;
+    left: 61px;
+    height: 40px;
+    padding-left: 63px;
+    width: 698px;
+}
+#help-body{
+    width: 92%;
+    margin: auto;
+    height: auto;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 50px;
+}
+#help-questions > button{
+    font-size: 10px;
+    margin: 17px;
+    background: none;
+    height: 33px;
+    border: 1px solid;
+    color: black;
+    padding: 12px;
+}
+#help-topics{
+    /* border: 1px solid green; */
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+.help-topics-inside{
+    border: 1px solid black;
+    padding: 35px;
+    font-size: 12px;
+    height: 155px;
+}
+.help-topics-inside > a{
+    color: black;
+}
+.help-topics-inside > p:first-child{
+    font-size: 17px;
+}
+.help-topics-inside > p ~ p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#foot {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 40%;
+    font-size: 11px;
+    margin-left: 58px;
+    justify-content: space-between;
+    margin-top: 300px;
+    cursor: pointer;
+}
+#country{
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 94%;
+    font-size: 11px;
+}
+#address{
+    font-size: 9px;
+    margin-top: 119px;
+    /* border: 1px solid red; */
+    width: 26%;
+    margin-left: 38px;
+}
